@@ -26,17 +26,7 @@ export default class Blank extends React.Component {
 
   state = {}
 
-  render = () => (
-    <ImageBackground
-      source={{
-        uri:
-          "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/image0.png"
-      }}
-      style={styles.ImageBackground_1}
-    />
-  )
+  render = () => <ImageBackground />
 }
 
-const styles = StyleSheet.create({
-  ImageBackground_1: { backgroundSize: "contain" }
-})
+const styles = StyleSheet.create({ ImageBackground_1: {} })
