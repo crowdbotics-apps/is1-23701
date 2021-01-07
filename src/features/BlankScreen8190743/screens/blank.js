@@ -26,7 +26,11 @@ export default class Blank extends React.Component {
 
   state = {}
 
-  render = () => <ImageBackground />
+  render = () => (
+    <ImageBackground>
+      <View />
+    </ImageBackground>
+  )
 }
 
-const styles = StyleSheet.create({ ImageBackground_1: {} })
+const styles = StyleSheet.create({ ImageBackground_1: {}, View_3: {} })
